@@ -48,8 +48,8 @@ Copyright (c) 2015 Zhonglei Qiu. Licensed under the MIT license.
 
 [climate-url]: https://codeclimate.com/github/qiu8310/dep
 [climate-image]: https://codeclimate.com/github/qiu8310/dep/badges/gpa.svg
-[npm-url]: https://npmjs.org/package/dep
-[npm-image]: https://badge.fury.io/js/dep.svg
+[npm-url]: https://npmjs.org/package/dep.js
+[npm-image]: https://badge.fury.io/js/dep.js.svg
 [travis-url]: https://travis-ci.org/qiu8310/dep
 [travis-image]: https://travis-ci.org/qiu8310/dep.svg?branch=master
 [daviddm-url]: https://david-dm.org/qiu8310/dep.svg?theme=shields.io
