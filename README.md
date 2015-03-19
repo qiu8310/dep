@@ -1,4 +1,4 @@
-# dep 
+# dep.js
 [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-url]][daviddm-image] [![Code Climate][climate-image]][climate-url] [![Coverage Status][coveralls-image]][coveralls-url]
 
 Parse shallow depends to deep depends.
