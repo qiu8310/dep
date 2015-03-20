@@ -1,7 +1,7 @@
 {
   "name": "dep.js",
   "description": "Parse shallow depends to deep depends.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "homepage": "https://github.com/qiu8310/dep",
   "bugs": "https://github.com/qiu8310/dep/issues",
   "license": "MIT",
