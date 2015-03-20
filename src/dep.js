@@ -21,7 +21,7 @@ function dep (items) {
     return [];
   }
 
-  var i, len = items.length,
+  var i, len = items.length, values = [],
 
   // find a item by value
     find = function(value) {
@@ -30,6 +30,15 @@ function dep (items) {
       }
       throw new Error('No item for value ' + String(value));
     };
+
+  // make sure no duplicated values
+  for (i = 0; i < len; ++i) {
+    if (values.indexOf(items[i].value) < 0) {
+      values.push(items[i].value);
+    } else {
+      throw new Error('duplicated value ' + items[i].value);
+    }
+  }
 
   function run(road) {
     var i, target, val = road.pop();

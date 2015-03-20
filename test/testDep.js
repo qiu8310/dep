@@ -110,6 +110,16 @@ describe('dep', function () {
     }).should.throw();
   });
 
+  it('should not support items with two equal value', function() {
+    (function() {
+      dep([
+        {value: 1, depends: [2]},
+        {value: 1, depends: [3]},
+        {value: 2, depends: []},
+        {value: 3, depends: []}
+      ]);
+    }).should.throw();
+  });
 
   it('should make example work', function() {
     require('../example/simple');
