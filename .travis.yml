@@ -7,5 +7,5 @@ after_script:
   - npm run coveralls
 notifications:
   email:
-    - zhongleiqiu@gmail.com
+    - qiuzhongleiabc@126.com
 
